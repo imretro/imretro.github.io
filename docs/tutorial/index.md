@@ -1,3 +1,5 @@
+{% include tutorial/toc.md %}
+
 ## Tutorial
 
 This is a tutorial for manually creating an imretro file.

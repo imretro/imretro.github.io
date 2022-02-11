@@ -1,4 +1,6 @@
-## Editing Contents
+{% include tutorial/toc.md %}
+
+## Editing Hex Values
 
 If you want to edit a value without starting over, you can edit the
 hex dump and then reverse it back into a file like this:
