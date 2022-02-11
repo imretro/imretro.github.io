@@ -11,10 +11,13 @@ $ xxd -r hexdump > file.imretro
 
 Of course, you don't have to use `nano`. Any text editor will work :)
 
+### Separating The Header And Pixels
+
 The above example will hexdump the whole file, so here's a way to edit
 just the pixels.
 
-We know we have 11 bytes before the pixels. We'll output those 11 bytes
+Let's base this off of [the first tutorial][tutorial-1].
+We know that we have 11 bytes before the pixels. We'll output those 11 bytes
 in a separate `header` file.
 
 ```console
@@ -38,3 +41,5 @@ $ cat header pixels | xxd -r -c1 > newfile.imretro
 We used `-c1` to make the column width 1 byte. This makes
 it easier to concatenate the two hex dumps without having to worry
 about irregular column widths.
+
+[tutorial-1]: ../1
