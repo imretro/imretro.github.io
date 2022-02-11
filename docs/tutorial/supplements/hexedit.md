@@ -32,7 +32,7 @@ You can make your changes by editing `pixels`. When you're finished,
 you can concatenate the files and revert the hexdump.
 
 ```console
-$ cat header pixels | xxd -r -c1
+$ cat header pixels | xxd -r -c1 > newfile.imretro
 ```
 
 We used `-c1` to make the column width 1 byte. This makes
