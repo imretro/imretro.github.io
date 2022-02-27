@@ -1,0 +1,1 @@
+../../assets/tutorial/2-pixels.sh
