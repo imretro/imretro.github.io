@@ -27,3 +27,7 @@ using any editor, image conversion, or encoder.
 This tool can be used to convert images to and from `.imretro` files.
 This tool is not limited to `.imretro` files, and can also convert
 GIF, JPEG, and GIF as well.
+
+#### [Misc. Tools](https://github.com/imretro/utilities)
+
+A collection of small utilities.
