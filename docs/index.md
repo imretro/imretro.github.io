@@ -19,6 +19,7 @@ using any editor, image conversion, or encoder.
 ### Implementations
 
 - [Go](https://github.com/imretro/go)
+- [TypeScript](https://github.com/imretro/ts) (WIP)
 
 ### Tools
 
